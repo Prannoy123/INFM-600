@@ -31,7 +31,7 @@ This data set includes information about the sales data for all stores & dates i
 
 **Merged Dataset**
 
-**merge.csv**
+**Merge.csv**
 
 We had different datasets for sales of item and the weather conditions and have date and store number in sales dataset and date and station number in weather dataset. This data set uses the data from the focal data set and the supporting datasets. We combined these 3 datasets to form a single dataset so that we had the weather and sales data together for analysis.
 
