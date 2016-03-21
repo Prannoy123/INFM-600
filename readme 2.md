@@ -53,7 +53,7 @@ As opposed to Item22 which has just started its sales from April 2014.
 
 Item Sales vs Time of Year
 
-![alt tag](https://github.com/Prannoy123/INFM-600/item-sales-vs-time-of-year.png)
+![alt tag](https://github.com/Prannoy123/INFM-600/blob/master/item%20sales%20vs%20time%20of%20year.png)
 
 **Predicting the effect of thunderstorm on the sale of items**
 
@@ -63,7 +63,7 @@ Houses and apartments of senior citizens.
 
 Effect of Thunderstorm vs Item Sales
 
-![alt tag](https://github.com/Prannoy123/INFM-600/effect-of-thunderstorm.png)
+![alt tag](https://github.com/Prannoy123/INFM-600/blob/master/effect%20of%20thunderstorm.png)
 
 -----
 Files
