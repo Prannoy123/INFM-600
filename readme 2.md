@@ -105,13 +105,13 @@ Acknowledgements
 References
 ----------
 
-The Geographic Information Systems Division. (2015). Presubmission Community Meetings [Data set CSV file]. Retrieved from https://data.howardcountymd.gov/. October 21, 2015
+Walmart. (2015). weather [Data set CSV file]. Retrieved from https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather/data. March 17, 2016
 
-The Geographic Information Systems Division (2014) Age Restricted Houses [Data set CSV file]. Retrieved from https://data.howardcountymd.gov/. October 21, 2015
+Walmart. (2015). key [Data set CSV file]. Retrieved from https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather/data. March 17, 2016
 
-The Geographic Information Systems Division (2014) Age Restricted Apartments [Data set CSV file]. Retrieved from https://data.howardcountymd.gov/. October 21, 2015
+Walmart. (2015). train [Data set CSV file]. Retrieved from https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather/data. March 17, 2016
 
-Gulati, G. (2015). Presubmission_meetings_and_Age_restricted_homes [Data CSV file]. Available from https://github.com/gavishgulati/INFM600/.
+Banerjee, P., Pande, V. (2016, March 17) (2015). merge [Data CSV file]. Available from https://github.com/Prannoy123/INFM-600/.
 
 -------
 Authors
