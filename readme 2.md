@@ -44,11 +44,14 @@ Analysis
 **Predicting the sale of items based on the time of year**
 
 We visually analyzed our final data (Merge.csv) using Tableau and found the following initial conclusions:
-•	As the above graph shows, the demand for items changes as per season and months thus the supply should adapt to such changes. 
-•	Item1 and Item97 vary according to each month, Item1 being bought mostly during March-July and the latter from December to January. Whereas Items 44 and 32 are fairly constant over the months. 
-•	We also see that Item93 hasn’t been sold post-March 2013 and would likely be not sold. 
-As opposed to Item22 which has just started its sales from April 2014. 
-•	There are predictions shown at the right in light color, as to how the sales would be.
+
+As the above graph shows, the demand for items changes as per season and months thus the supply should adapt to such changes. 
+
+Item1 and Item97 vary according to each month, Item1 being bought mostly during March-July and the latter from December to January. Whereas Items 44 and 32 are fairly constant over the months. 
+
+We also see that Item93 hasn’t been sold post-March 2013 and would likely be not sold. As opposed to Item22 which has just started its sales from April 2014. 
+
+There are predictions shown at the right in light color, as to how the sales would be.
 
 
 Item Sales vs Time of Year
@@ -58,8 +61,11 @@ Item Sales vs Time of Year
 **Predicting the effect of thunderstorm on the sale of items**
 
 We visually analyzed our final data (Merge.csv) using Tableau and found the following initial conclusions:
-•	The sale of some of the items spike while others reduce. More no. of Item110 are sold during the storm. Whereas, Item109 is sold less during the thunderstorms.
-Houses and apartments of senior citizens.
+
+The sale of some of the items spike while others reduce. 
+
+More number of Item110 are sold during the storm; whereas, Item109 is sold less during the thunderstorms.
+
 
 Effect of Thunderstorm vs Item Sales
 
@@ -69,15 +75,14 @@ Effect of Thunderstorm vs Item Sales
 Files
 -----
 
-*Public Pre-submission community meetings*
+*weather.csv*
 
-*Age Restricted Houses*
+*key.csv*
 
-*Age Restricted Apartments*
+*train.csv*
 
-*Presubmission_meetings_and_Age_restricted_homes*
+*merge.csv*
 
-*Process Documentation*
 
 ------- 
 License
@@ -94,7 +99,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/).
 Acknowledgements
 ----------------
 
-   I thank the data Howard county team for combining these valuable datasets.
+   I thank the data Walmart team for providing these valuable datasets.
 
 ----------
 References
