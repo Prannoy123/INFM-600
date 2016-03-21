@@ -15,7 +15,7 @@ Description
 
 This data set includes information about the weather information for each station and day. It has data values describing Station number, Date, max/min/avg temperatures, dew point, wet bulb, heat, cool, sunrise, sunset, codesum, snowfall, precipitation, sea level, wind speed and direction.
 
-**Supporting Data Set**
+**Supporting Data Sets**
 
 **key.csv**
 
@@ -73,7 +73,7 @@ Files
 
 *train.csv*
 
-*merge.csv*
+*Merge.csv*
 
 *DataMerge.R*
 
@@ -113,7 +113,7 @@ Walmart. (2015). key [Data set CSV file]. Retrieved from https://www.kaggle.com/
 
 Walmart. (2015). train [Data set CSV file]. Retrieved from https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather/data. March 17, 2016
 
-Banerjee, P., Pande, V. (2016, March 17) (2016). merge [Data CSV file]. Available from https://github.com/Prannoy123/INFM-600/blob/master/Merge.csv
+Banerjee, P., Pande, V. (2016, March 17). Merge [Data CSV file]. Available from https://github.com/Prannoy123/INFM-600/blob/master/Merge.csv
 
 -------
 Authors
