@@ -125,7 +125,8 @@ Walmart. (2015). key [Data set CSV file]. Retrieved from https://www.kaggle.com/
 
 Walmart. (2015). train [Data set CSV file]. Retrieved from https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather/data. March 17, 2016
 
-Banerjee, P., Pande, V. (2016, March 17) (2015). merge [Data CSV file]. Available from https://github.com/Prannoy123/INFM-600/blob/master/Merge.csv.
+Banerjee, P., Pande, V. (2016, March 17) (2015). merge [Data CSV file]. Available from https://github.com/Prannoy123/INFM-600/blob/master/Merge.csv
+
 -------
 Authors
 -------
