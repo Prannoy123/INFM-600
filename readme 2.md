@@ -3,7 +3,7 @@
 Version
 -------
 
-Version 1.0 (October 2015)
+Version 1.0 (March 2015)
 
 -----------
 Description
@@ -11,29 +11,29 @@ Description
 
 **Focal Data**
 
-**vPublic_PresubmissionCommunityMeetings.csv**
+**weather.csv**
 
-This file includes data about the Pre-submission community meetings held in the past and also mentions the details about future meetings. This dataset includes important details such as Project Name, Meeting Date, Meeting Time, Meeting Location Place, Meeting Location Address, Proposed Units, Coordinates and a few more details.
+This data set includes information about the NOAA weather information for each station and day. It has data values describing Station number, Date, max/min/avg temperatures, dew point, wet bulb, heat, cool, sunrise, sunset, codesum, snowfall, precipitation, sea level, wind speed and direction.
 
 **Supporting Data Set**
 
-**Age_Restricted_Homes.csv**
+**key.csv**
 
-This data set includes information about the housing for elder citizen with minimum age of 55 to 60. It has data values describing name of the housing, address, city, state, zip code, phone number, email address, minimum age and geometrical coordinates.
-
-
+This file consists of the relational mapping between stores and the weather stations that cover them. This dataset includes important details such as Store Number and Station Number.
 
 
 
-**Age_Restricted_Apartments.csv**
 
-This data set includes information about the apartments for elder citizen with minimum age of 55 to 62. It has data values describing name of the housing, address, city, state, zip code, phone number, email address, minimum age and geometrical coordinates
+
+**train.csv**
+
+This data set includes information about the sales data for all stores & dates in the training set. It has data values describing Date, Store number, Item number, Units sold. 
 
 **Merged Dataset**
 
-**Presubmission_meetings_and_Age_restricted_homes.csv**
+**merge.csv**
 
-This data set uses the data from the focal data set and Age_Restricted_Homes.csv.
+We had different datasets for sales of item and the weather conditions and have date and store number in sales dataset and date and station number in weather dataset. This data set uses the data from the focal data set and the supporting datasets. We combined these 3 datasets to form a single dataset so that we had the weather and sales data together for analysis.
 
 
 
@@ -41,18 +41,30 @@ This data set uses the data from the focal data set and Age_Restricted_Homes.csv
 Analysis
 ---------------
 
-**Pre-submission meetings held in Howard County are accessible for elderly citizens or not?**
+**Predicting the sale of items based on the time of year**
 
-I viewed all the three datasets taken from Howard County data portal on an interactive map.
-By viewing the geometrical locations on an interactive map, one can analyze whether the community meetings are accessible to elderly citizens.	
+We visually analyzed our final data (Merge.csv) using Tableau and found the following initial conclusions:
+•	As the above graph shows, the demand for items changes as per season and months thus the supply should adapt to such changes. 
+•	Item1 and Item97 vary according to each month, Item1 being bought mostly during March-July and the latter from December to January. Whereas Items 44 and 32 are fairly constant over the months. 
+•	We also see that Item93 hasn’t been sold post-March 2013 and would likely be not sold. 
+As opposed to Item22 which has just started its sales from April 2014. 
+•	There are predictions shown at the right in light color, as to how the sales would be.
 
-Pre-submission community meeting venues
 
-![alt tag](https://github.com/gavishgulati/INFM600/blob/master/meetings.jpg)
+Item Sales vs Time of Year
 
+![alt tag](https://github.com/Prannoy123/INFM-600/item-sales-vs-time-of-year.png)
+
+**Predicting the effect of thunderstorm on the sale of items**
+
+We visually analyzed our final data (Merge.csv) using Tableau and found the following initial conclusions:
+•	The sale of some of the items spike while others reduce. More no. of Item110 are sold during the storm. Whereas, Item109 is sold less during the thunderstorms.
 Houses and apartments of senior citizens.
 
-![alt tag](https://github.com/gavishgulati/INFM600/blob/master/Houses_Apartments.jpg)
+Effect of Thunderstorm vs Item Sales
+
+![alt tag](https://github.com/Prannoy123/INFM-600/effect-of-thunderstorm.png)
+
 -----
 Files
 -----
@@ -76,7 +88,7 @@ Attribution-NonCommercial-ShareAlike 4.0 International License (see
 http://creativecommons.org/licenses/by-nc-sa/4.0/).
    
 	The data is made available for non-commercial use. Those interested in using the data 
-   	in a commercial context should contact the owner(Gavish Gulati).
+   	in a commercial context should contact the owner(Prannoy Banerjee).
 
 ----------------
 Acknowledgements
@@ -97,7 +109,8 @@ The Geographic Information Systems Division (2014) Age Restricted Apartments [Da
 Gulati, G. (2015). Presubmission_meetings_and_Age_restricted_homes [Data CSV file]. Available from https://github.com/gavishgulati/INFM600/.
 
 -------
-Author
+Authors
 -------
 
-Gavish Gulati.
+Prannoy Banerjee
+Vinayak Pande
