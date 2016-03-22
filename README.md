@@ -3,7 +3,7 @@
 Version
 -------
 
-Version 1.0 (March 2015)
+Version 1.0 (March 2016)
 
 -----------
 Description
